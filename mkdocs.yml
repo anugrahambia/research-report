@@ -1,10 +1,29 @@
 site_name: Research Progress Report
-
 theme:
   name: material
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Ganti ke mode gelap
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Ganti ke mode terang
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
 
+extra_css:
+  - stylesheets/extra.css
 
-nav:
-  - Home: index.md
-  - Notes:
-    - notes/introduction.md
+repo_url: https://github.com/anugrahambia/research-report
